@@ -15,8 +15,6 @@ const Nav = () => {
       className={activeNav === '#projects' ? 'active' : ''}><AiOutlineProject /></a>
       <a href="#education" onClick={() => setActiveNav('#education')} 
       className={activeNav === '#education' ? 'active' : ''}><AiOutlineBook /></a>
-      <a href="#hobbies" onClick={() => setActiveNav('#hobbies')} 
-      className={activeNav === '#hobbies' ? 'active' : ''}><AiOutlineHeart /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} 
       className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage /></a>
     </nav>
