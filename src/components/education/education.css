@@ -6,6 +6,7 @@
 
 .western {
     width: 80%;
+    max-width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -14,8 +15,9 @@
         var(--color-primary), 
         transparent
     );
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .western-image {
@@ -79,9 +81,8 @@
 }
 
 .education__content {
-    margin: 2rem 0 2.6rem;
+    margin: 0;
     color: var(--color-light);
-    width: 120%;
 }
 
 .education__content p {
@@ -106,25 +107,5 @@
 }
 
 @media screen and (max-width: 600px) {
-    .western {
-        width: 65%;
-        margin: 0 auto 0.1rem;
-    }
-
-    .education__cards {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
-    }
-
-    .education__card {
-        padding: 0.5rem;
-    }
-
-    .education__content {
-        text-align: center;
-    }
-
-    .education__content p {
-        margin: 1.5rem 0;
-    }
+    
 }

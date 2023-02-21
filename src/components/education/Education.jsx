@@ -11,10 +11,10 @@ const Education = () => {
       <div className="container education__container">
         
         <div className="education__content">
-            <article className='degree__card'>
-              <h5>Degree</h5>
-              <small>Bachelor of Software Engineering</small>
-            </article>
+          <article className='degree__card'>
+            <h5>Degree</h5>
+            <small>Bachelor of Software Engineering</small>
+          </article>
 
           <article className='courses__card'>
             <h5>Key Courses</h5>
