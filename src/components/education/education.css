@@ -1,3 +1,7 @@
+.ed {
+    height: auto;
+}
+
 .education__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -35,7 +39,7 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 4rem 2rem;
     text-align: center;
     transition: var(--transition);
     margin-bottom: 2rem;
@@ -83,6 +87,7 @@
 .education__content {
     margin: 0;
     color: var(--color-light);
+    width: 130%;
 }
 
 .education__content p {
@@ -101,10 +106,17 @@
         margin: 4rem auto 4rem;
     }
 
+    .education__content {
+        width: 100%;
+    }
+
     .education__content p {
         margin: 1rem 0 1.5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .western {
+        width: 60%;
+    }
 }

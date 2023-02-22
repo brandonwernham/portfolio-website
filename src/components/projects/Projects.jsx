@@ -7,7 +7,7 @@ import IMG4 from '../../assets/portfolio4.PNG'
 
 const Projects = () => {
   return (
-    <section id='projects'>
+    <section id='projects' className='proj'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

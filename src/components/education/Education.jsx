@@ -4,7 +4,7 @@ import WESTERN from '../../assets/WESTERN.jpg'
 
 const Education = () => {
   return (
-    <section id='education'>
+    <section id='education' className='ed'>
       <h5>Fresh Graduate With Excellent Learning Skills</h5>
       <h2>My Education</h2>
 

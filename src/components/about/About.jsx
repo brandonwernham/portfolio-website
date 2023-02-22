@@ -7,7 +7,7 @@ import {AiFillDatabase} from 'react-icons/ai'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='ab'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
