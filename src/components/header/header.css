@@ -68,3 +68,10 @@ header {
         display: none;
     }
 }
+
+@media screen and (max-height: 700px) {
+    header {
+        height: 140vh;
+        overflow: visible;
+    }
+}
