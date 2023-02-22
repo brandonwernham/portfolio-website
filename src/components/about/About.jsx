@@ -47,7 +47,7 @@ const About = () => {
 
           <p>
           I am a driven Software Engineer with 4+ years of programming experience. 
-          I help companies bring innovative ideas to life will full-stack development. 
+          I help companies bring innovative ideas to life with full-stack development. 
           I work well in a team, proven with group experience opportunities throughout 
           my 4 years at Western University. I am customer-driven, always striving 
           to make clients 100% satisfied. I have excellent experience with 
