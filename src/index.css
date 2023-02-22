@@ -12,8 +12,8 @@
 
 :root {
     --color-bg: #0c0921;
-    --color-bg-variant: #301E67;
-    --color-primary: #4696ae;
+    --color-bg-variant: linear-gradient(#301E67, 80%, #0f3739);
+    --color-primary: #71ffe3;
     --color-primary-variant: #B6EADA;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.728);
