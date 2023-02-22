@@ -20,8 +20,6 @@ const Projects = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/brandonwernham/SortingAlgoLearning" 
             className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/brandonwernham/SortingAlgoLearning" 
-            className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -33,8 +31,6 @@ const Projects = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/brandonwernham/TutoringPlatform" 
             className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/brandonwernham/TutoringPlatform" 
-            className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -59,7 +55,7 @@ const Projects = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/brandonwernham/portfolio-website" 
             className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/brandonwernham/portfolio-website" 
+            <a href="https://brandonwernham.com/" 
             className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
